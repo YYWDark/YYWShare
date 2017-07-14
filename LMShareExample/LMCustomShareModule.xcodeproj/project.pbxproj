@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7507D63D1F14ACDA00619A22 /* LMSinaWeiboShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7507D63C1F14ACDA00619A22 /* LMSinaWeiboShareManager.m */; };
+		7507D6401F14BB1900619A22 /* UIImage+LMSSDKScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 7507D63F1F14BB1900619A22 /* UIImage+LMSSDKScale.m */; };
+		7507D6421F14EDD700619A22 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7507D6411F14EDD700619A22 /* gif.gif */; };
+		7507D6471F14FA5800619A22 /* res6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7507D6461F14FA5800619A22 /* res6.gif */; };
+		75214A381F15BC1200BF2609 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A371F15BC1200BF2609 /* libiconv.tbd */; };
+		75214A3A1F15BC2600BF2609 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A391F15BC2600BF2609 /* SystemConfiguration.framework */; };
+		75214A3C1F15BC3000BF2609 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A3B1F15BC3000BF2609 /* CoreGraphics.framework */; };
+		75214A3E1F15BC4200BF2609 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A3D1F15BC4200BF2609 /* libsqlite3.tbd */; };
+		75214A401F15BC4D00BF2609 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A3F1F15BC4D00BF2609 /* CoreTelephony.framework */; };
+		75214A421F15BC5900BF2609 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A411F15BC5900BF2609 /* libstdc++.tbd */; };
+		75214A441F15BC6400BF2609 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A431F15BC6400BF2609 /* libz.tbd */; };
+		75214A4D1F15C9DF00BF2609 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75214A4B1F15C9DF00BF2609 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		75214A4E1F15C9DF00BF2609 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75214A4C1F15C9DF00BF2609 /* TencentOpenAPI.framework */; };
+		754448AE1F16176900D07C13 /* gif_200k.gif in Resources */ = {isa = PBXBuildFile; fileRef = 754448AD1F16176900D07C13 /* gif_200k.gif */; };
+		75D62CC41F1318BB00B35F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D62CC31F1318BB00B35F4A /* main.m */; };
+		75D62CC71F1318BB00B35F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D62CC61F1318BB00B35F4A /* AppDelegate.m */; };
+		75D62CCA1F1318BB00B35F4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D62CC91F1318BB00B35F4A /* ViewController.m */; };
+		75D62CCD1F1318BB00B35F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D62CCB1F1318BB00B35F4A /* Main.storyboard */; };
+		75D62CCF1F1318BB00B35F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D62CCE1F1318BB00B35F4A /* Assets.xcassets */; };
+		75D62CD21F1318BB00B35F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D62CD01F1318BB00B35F4A /* LaunchScreen.storyboard */; };
+		75D62CDA1F1318F100B35F4A /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75D62CD91F1318F100B35F4A /* girl.jpg */; };
+		75D62CE31F13227900B35F4A /* LMShareSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D62CE21F13227900B35F4A /* LMShareSDK.m */; };
+		75D62CE91F1327C200B35F4A /* NSMutableDictionary+LMSSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D62CE81F1327C200B35F4A /* NSMutableDictionary+LMSSDK.m */; };
+		75D62CF01F13627200B35F4A /* LMWXShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D62CEF1F13627200B35F4A /* LMWXShareManager.m */; };
+		75D62CF31F136BB000B35F4A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D62CF21F136BB000B35F4A /* DetailViewController.m */; };
+		75DBA2491F1716AB00F59CE1 /* LMShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DBA2481F1716AB00F59CE1 /* LMShareManager.m */; };
+		75DBA24F1F176A4900F59CE1 /* LMQQShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DBA24E1F176A4900F59CE1 /* LMQQShareManager.m */; };
+		F6E8397437B2057351BF310D /* libPods-LMCustomShareModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC01E3DBF0A28E42CB1FF5A8 /* libPods-LMCustomShareModule.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4254F57D1A392AB97EEC5DFA /* Pods-LMCustomShareModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMCustomShareModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMCustomShareModule/Pods-LMCustomShareModule.release.xcconfig"; sourceTree = "<group>"; };
+		7507D63B1F14ACDA00619A22 /* LMSinaWeiboShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSinaWeiboShareManager.h; sourceTree = "<group>"; };
+		7507D63C1F14ACDA00619A22 /* LMSinaWeiboShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSinaWeiboShareManager.m; sourceTree = "<group>"; };
+		7507D63E1F14BB1900619A22 /* UIImage+LMSSDKScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LMSSDKScale.h"; sourceTree = "<group>"; };
+		7507D63F1F14BB1900619A22 /* UIImage+LMSSDKScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LMSSDKScale.m"; sourceTree = "<group>"; };
+		7507D6411F14EDD700619A22 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		7507D6461F14FA5800619A22 /* res6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = res6.gif; sourceTree = "<group>"; };
+		75214A371F15BC1200BF2609 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		75214A391F15BC2600BF2609 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		75214A3B1F15BC3000BF2609 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75214A3D1F15BC4200BF2609 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		75214A3F1F15BC4D00BF2609 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		75214A411F15BC5900BF2609 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		75214A431F15BC6400BF2609 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		75214A4B1F15C9DF00BF2609 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		75214A4C1F15C9DF00BF2609 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		754448AD1F16176900D07C13 /* gif_200k.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_200k.gif; sourceTree = "<group>"; };
+		75D62CBF1F1318BB00B35F4A /* LMCustomShareModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMCustomShareModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D62CC31F1318BB00B35F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75D62CC51F1318BB00B35F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75D62CC61F1318BB00B35F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75D62CC81F1318BB00B35F4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75D62CC91F1318BB00B35F4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75D62CCC1F1318BB00B35F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D62CCE1F1318BB00B35F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D62CD11F1318BB00B35F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75D62CD31F1318BB00B35F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D62CD91F1318F100B35F4A /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = girl.jpg; path = ../girl.jpg; sourceTree = "<group>"; };
+		75D62CDB1F131D4A00B35F4A /* LMSSDKTypeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LMSSDKTypeDefine.h; path = ../LMSSDKTypeDefine.h; sourceTree = "<group>"; };
+		75D62CE11F13227900B35F4A /* LMShareSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMShareSDK.h; sourceTree = "<group>"; };
+		75D62CE21F13227900B35F4A /* LMShareSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMShareSDK.m; sourceTree = "<group>"; };
+		75D62CE71F1327C200B35F4A /* NSMutableDictionary+LMSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LMSSDK.h"; sourceTree = "<group>"; };
+		75D62CE81F1327C200B35F4A /* NSMutableDictionary+LMSSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LMSSDK.m"; sourceTree = "<group>"; };
+		75D62CEE1F13627200B35F4A /* LMWXShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMWXShareManager.h; sourceTree = "<group>"; };
+		75D62CEF1F13627200B35F4A /* LMWXShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMWXShareManager.m; sourceTree = "<group>"; };
+		75D62CF11F136BB000B35F4A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		75D62CF21F136BB000B35F4A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		75DBA2471F1716AB00F59CE1 /* LMShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMShareManager.h; sourceTree = "<group>"; };
+		75DBA2481F1716AB00F59CE1 /* LMShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMShareManager.m; sourceTree = "<group>"; };
+		75DBA24D1F176A4900F59CE1 /* LMQQShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMQQShareManager.h; sourceTree = "<group>"; };
+		75DBA24E1F176A4900F59CE1 /* LMQQShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMQQShareManager.m; sourceTree = "<group>"; };
+		AC01E3DBF0A28E42CB1FF5A8 /* libPods-LMCustomShareModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMCustomShareModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6040A9F1DA6979BB7BE09F /* Pods-LMCustomShareModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMCustomShareModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMCustomShareModule/Pods-LMCustomShareModule.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D62CBC1F1318BB00B35F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75214A441F15BC6400BF2609 /* libz.tbd in Frameworks */,
+				75214A4E1F15C9DF00BF2609 /* TencentOpenAPI.framework in Frameworks */,
+				75214A421F15BC5900BF2609 /* libstdc++.tbd in Frameworks */,
+				75214A401F15BC4D00BF2609 /* CoreTelephony.framework in Frameworks */,
+				75214A3E1F15BC4200BF2609 /* libsqlite3.tbd in Frameworks */,
+				75214A3C1F15BC3000BF2609 /* CoreGraphics.framework in Frameworks */,
+				75214A3A1F15BC2600BF2609 /* SystemConfiguration.framework in Frameworks */,
+				75214A381F15BC1200BF2609 /* libiconv.tbd in Frameworks */,
+				F6E8397437B2057351BF310D /* libPods-LMCustomShareModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BC7F55A4AE680793DFBB91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75214A431F15BC6400BF2609 /* libz.tbd */,
+				75214A411F15BC5900BF2609 /* libstdc++.tbd */,
+				75214A3F1F15BC4D00BF2609 /* CoreTelephony.framework */,
+				75214A3D1F15BC4200BF2609 /* libsqlite3.tbd */,
+				75214A3B1F15BC3000BF2609 /* CoreGraphics.framework */,
+				75214A391F15BC2600BF2609 /* SystemConfiguration.framework */,
+				75214A371F15BC1200BF2609 /* libiconv.tbd */,
+				AC01E3DBF0A28E42CB1FF5A8 /* libPods-LMCustomShareModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73272C6FACA243EBC4B8451A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB6040A9F1DA6979BB7BE09F /* Pods-LMCustomShareModule.debug.xcconfig */,
+				4254F57D1A392AB97EEC5DFA /* Pods-LMCustomShareModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7507D6311F14AB2100619A22 /* SINA */ = {
+			isa = PBXGroup;
+			children = (
+				7507D63B1F14ACDA00619A22 /* LMSinaWeiboShareManager.h */,
+				7507D63C1F14ACDA00619A22 /* LMSinaWeiboShareManager.m */,
+			);
+			name = SINA;
+			sourceTree = "<group>";
+		};
+		75214A2D1F15B39800BF2609 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				75DBA24D1F176A4900F59CE1 /* LMQQShareManager.h */,
+				75DBA24E1F176A4900F59CE1 /* LMQQShareManager.m */,
+				75214A301F15B43200BF2609 /* QQSDK */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		75214A301F15B43200BF2609 /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				75214A4B1F15C9DF00BF2609 /* TencentOpenApi_IOS_Bundle.bundle */,
+				75214A4C1F15C9DF00BF2609 /* TencentOpenAPI.framework */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		75214A351F15B4F600BF2609 /* 业务代码 */ = {
+			isa = PBXGroup;
+			children = (
+				754448AD1F16176900D07C13 /* gif_200k.gif */,
+				75D62CD91F1318F100B35F4A /* girl.jpg */,
+				7507D6411F14EDD700619A22 /* gif.gif */,
+				7507D6461F14FA5800619A22 /* res6.gif */,
+				75D62CC51F1318BB00B35F4A /* AppDelegate.h */,
+				75D62CC61F1318BB00B35F4A /* AppDelegate.m */,
+				75D62CC81F1318BB00B35F4A /* ViewController.h */,
+				75D62CC91F1318BB00B35F4A /* ViewController.m */,
+				75D62CF11F136BB000B35F4A /* DetailViewController.h */,
+				75D62CF21F136BB000B35F4A /* DetailViewController.m */,
+			);
+			name = "业务代码";
+			sourceTree = "<group>";
+		};
+		75214A361F15B4FF00BF2609 /* LMSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				75D62CDB1F131D4A00B35F4A /* LMSSDKTypeDefine.h */,
+				75D62CE11F13227900B35F4A /* LMShareSDK.h */,
+				75D62CE21F13227900B35F4A /* LMShareSDK.m */,
+				75D62CE71F1327C200B35F4A /* NSMutableDictionary+LMSSDK.h */,
+				75D62CE81F1327C200B35F4A /* NSMutableDictionary+LMSSDK.m */,
+				7507D63E1F14BB1900619A22 /* UIImage+LMSSDKScale.h */,
+				7507D63F1F14BB1900619A22 /* UIImage+LMSSDKScale.m */,
+				75DBA2471F1716AB00F59CE1 /* LMShareManager.h */,
+				75DBA2481F1716AB00F59CE1 /* LMShareManager.m */,
+			);
+			name = LMSSDK;
+			sourceTree = "<group>";
+		};
+		75D62CB61F1318BB00B35F4A = {
+			isa = PBXGroup;
+			children = (
+				75D62CC11F1318BB00B35F4A /* LMCustomShareModule */,
+				75D62CC01F1318BB00B35F4A /* Products */,
+				73272C6FACA243EBC4B8451A /* Pods */,
+				18BC7F55A4AE680793DFBB91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75D62CC01F1318BB00B35F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D62CBF1F1318BB00B35F4A /* LMCustomShareModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D62CC11F1318BB00B35F4A /* LMCustomShareModule */ = {
+			isa = PBXGroup;
+			children = (
+				75214A351F15B4F600BF2609 /* 业务代码 */,
+				75D62CE01F13218100B35F4A /* LMShareSDK */,
+				75D62CCB1F1318BB00B35F4A /* Main.storyboard */,
+				75D62CCE1F1318BB00B35F4A /* Assets.xcassets */,
+				75D62CD01F1318BB00B35F4A /* LaunchScreen.storyboard */,
+				75D62CD31F1318BB00B35F4A /* Info.plist */,
+				75D62CC21F1318BB00B35F4A /* Supporting Files */,
+			);
+			path = LMCustomShareModule;
+			sourceTree = "<group>";
+		};
+		75D62CC21F1318BB00B35F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D62CC31F1318BB00B35F4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D62CE01F13218100B35F4A /* LMShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				75214A2D1F15B39800BF2609 /* QQ */,
+				7507D6311F14AB2100619A22 /* SINA */,
+				75D62CED1F13624300B35F4A /* WEIXIN */,
+				75214A361F15B4FF00BF2609 /* LMSSDK */,
+			);
+			name = LMShareSDK;
+			sourceTree = "<group>";
+		};
+		75D62CED1F13624300B35F4A /* WEIXIN */ = {
+			isa = PBXGroup;
+			children = (
+				75D62CEE1F13627200B35F4A /* LMWXShareManager.h */,
+				75D62CEF1F13627200B35F4A /* LMWXShareManager.m */,
+			);
+			name = WEIXIN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D62CBE1F1318BB00B35F4A /* LMCustomShareModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D62CD61F1318BB00B35F4A /* Build configuration list for PBXNativeTarget "LMCustomShareModule" */;
+			buildPhases = (
+				E3522F743E2A28C98A09B594 /* [CP] Check Pods Manifest.lock */,
+				75D62CBB1F1318BB00B35F4A /* Sources */,
+				75D62CBC1F1318BB00B35F4A /* Frameworks */,
+				75D62CBD1F1318BB00B35F4A /* Resources */,
+				BF9BF7A75DB244DF1FEEAD11 /* [CP] Embed Pods Frameworks */,
+				0D97F8979C5310F1B0F1ED9D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMCustomShareModule;
+			productName = LMCustomShareModule;
+			productReference = 75D62CBF1F1318BB00B35F4A /* LMCustomShareModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D62CB71F1318BB00B35F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wyy;
+				TargetAttributes = {
+					75D62CBE1F1318BB00B35F4A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65Y8F76Y6Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75D62CBA1F1318BB00B35F4A /* Build configuration list for PBXProject "LMCustomShareModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D62CB61F1318BB00B35F4A;
+			productRefGroup = 75D62CC01F1318BB00B35F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D62CBE1F1318BB00B35F4A /* LMCustomShareModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D62CBD1F1318BB00B35F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D62CD21F1318BB00B35F4A /* LaunchScreen.storyboard in Resources */,
+				75D62CDA1F1318F100B35F4A /* girl.jpg in Resources */,
+				754448AE1F16176900D07C13 /* gif_200k.gif in Resources */,
+				7507D6421F14EDD700619A22 /* gif.gif in Resources */,
+				75D62CCF1F1318BB00B35F4A /* Assets.xcassets in Resources */,
+				75214A4D1F15C9DF00BF2609 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				7507D6471F14FA5800619A22 /* res6.gif in Resources */,
+				75D62CCD1F1318BB00B35F4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D97F8979C5310F1B0F1ED9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMCustomShareModule/Pods-LMCustomShareModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9BF7A75DB244DF1FEEAD11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMCustomShareModule/Pods-LMCustomShareModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3522F743E2A28C98A09B594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D62CBB1F1318BB00B35F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7507D63D1F14ACDA00619A22 /* LMSinaWeiboShareManager.m in Sources */,
+				75D62CCA1F1318BB00B35F4A /* ViewController.m in Sources */,
+				75D62CE91F1327C200B35F4A /* NSMutableDictionary+LMSSDK.m in Sources */,
+				75D62CE31F13227900B35F4A /* LMShareSDK.m in Sources */,
+				75DBA24F1F176A4900F59CE1 /* LMQQShareManager.m in Sources */,
+				75D62CF31F136BB000B35F4A /* DetailViewController.m in Sources */,
+				75D62CC71F1318BB00B35F4A /* AppDelegate.m in Sources */,
+				75D62CF01F13627200B35F4A /* LMWXShareManager.m in Sources */,
+				7507D6401F14BB1900619A22 /* UIImage+LMSSDKScale.m in Sources */,
+				75DBA2491F1716AB00F59CE1 /* LMShareManager.m in Sources */,
+				75D62CC41F1318BB00B35F4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75D62CCB1F1318BB00B35F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D62CCC1F1318BB00B35F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D62CD01F1318BB00B35F4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D62CD11F1318BB00B35F4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D62CD41F1318BB00B35F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D62CD51F1318BB00B35F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D62CD71F1318BB00B35F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6040A9F1DA6979BB7BE09F /* Pods-LMCustomShareModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMCustomShareModule",
+					"$(PROJECT_DIR)/LMCustomShareModule/QQSDK",
+				);
+				INFOPLIST_FILE = LMCustomShareModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMCustomShareModule/libWeiboSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.ShareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75D62CD81F1318BB00B35F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4254F57D1A392AB97EEC5DFA /* Pods-LMCustomShareModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMCustomShareModule",
+					"$(PROJECT_DIR)/LMCustomShareModule/QQSDK",
+				);
+				INFOPLIST_FILE = LMCustomShareModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LMCustomShareModule/libWeiboSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.product.ShareSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D62CBA1F1318BB00B35F4A /* Build configuration list for PBXProject "LMCustomShareModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D62CD41F1318BB00B35F4A /* Debug */,
+				75D62CD51F1318BB00B35F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D62CD61F1318BB00B35F4A /* Build configuration list for PBXNativeTarget "LMCustomShareModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D62CD71F1318BB00B35F4A /* Debug */,
+				75D62CD81F1318BB00B35F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D62CB71F1318BB00B35F4A /* Project object */;
+}
